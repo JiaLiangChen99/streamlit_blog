@@ -1,1 +1,5 @@
+extra_streamlit_components
+tinydb
+requests
+json
 streamlit
