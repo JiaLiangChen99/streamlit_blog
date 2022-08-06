@@ -1,5 +1,5 @@
 extra_streamlit_components
 tinydb
-requests == 2.24.0
+requests == 2.20
 json
 streamlit
