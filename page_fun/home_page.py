@@ -28,13 +28,13 @@ def home_page_fun(df):
     with col1:
         st.markdown('''
                <div align="center"><a href="https://www.baidu.com/" target="_parent"><img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png"  width=160px height=160px/></a></div>
-                '''.format(blog_url,my_fastapi),unsafe_allow_html=True)
+                ''',unsafe_allow_html=True)
         st.markdown('''
         <div align="center"><p>博客</p></div>
                 ''',unsafe_allow_html=True)
         st.markdown('''
-               <div align="center"><a href="{}/?resource=1" target="_parent"><img src="{}/conputer.jpg"  width=160px height=160px/></a></div>
-                '''.format(blog_url,my_fastapi),unsafe_allow_html=True)
+               <div align="center"><a href="https://jialiangchen99-streamlit-blog-main-2csjzy.streamlitapp.com/?resource=1" target="_parent"><img src="{}/conputer.jpg"  width=160px height=160px/></a></div>
+                '''.format(my_fastapi),unsafe_allow_html=True)
         st.markdown('''
         <div align="center"><p>资源</p></div>
                 '''.format(blog_url,my_fastapi),unsafe_allow_html=True)
