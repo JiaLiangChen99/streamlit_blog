@@ -27,7 +27,7 @@ def home_page_fun(df):
     col1,col2,col3 = st.columns(3)
     with col1:
         st.markdown('''
-               <div align="center"><a href="{}/?blog=1" target="_parent"><img src="{}/blog.jpg"  width=160px height=160px/></a></div>
+               <div align="center"><a href="https://www.baidu.com/" target="_parent"><img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png"  width=160px height=160px/></a></div>
                 '''.format(blog_url,my_fastapi),unsafe_allow_html=True)
         st.markdown('''
         <div align="center"><p>博客</p></div>
